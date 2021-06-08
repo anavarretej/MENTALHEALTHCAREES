@@ -1,0 +1,92 @@
+/*Se aplica una fuente a todo el cuerpo*/
+body {
+	background-color: #c4e2ed;
+	font-family:'Times New Roman',Times, serif;
+	font-size: 16px;
+	color: #4d4d4d;
+}
+
+#container{
+	font-size: 13px;
+	border: hidden 1px;
+}
+
+/*Se aplica a la cabecera*/
+header{
+	text-align: left;
+	align-content: left;
+	border-style: outset;
+	border-color:#80ff80;
+	border-width: 7px;
+	background-color: #00e68a;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 23px;
+	padding-bottom: 0px;
+}
+
+#propósito {
+	align-content: center;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 1px;
+	background-color: #ffffff;
+}
+
+/*Se aplica a los párrafos*/
+p {
+	align-content: left;
+	border-style: solid;
+	border-width: 1px;
+	font-family:'Times New Roman', times, serif;
+
+}
+
+body.depresion {
+	background-color: #c4e2ed;
+	font-family:'Times New Roman',Times,serif;
+
+}
+
+
+nav{
+	background: lightblue;
+	height: 30px;
+	border-bottom: 1px solid black;
+
+
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	margin: 10px;
+	background-color: lightgray;
+	font-color: lightgreen;
+	line-height: 30px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+/*Se aplica al contenido*/
+#content{
+	float: left;
+	width: 80%;
+	background: lightgray;
+}
+
+/*Se aplica al buscador*/
+aside{
+	float: left;
+	width: 20px;
+}
+
+/*Se aplica al pie de página*/
+footer{
+	background: black;
+	color: white;
+	text-align: left;
+	height: 50px;
+	line-height: 50px;
+	float: bottom;
+}
